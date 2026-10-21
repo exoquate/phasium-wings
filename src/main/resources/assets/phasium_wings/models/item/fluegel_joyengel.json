@@ -1,0 +1,89 @@
+{
+  "textures": {
+    "wing": "phasium_wings:item/fluegel_joyengel",
+    "particle": "phasium_wings:item/fluegel_joyengel"
+  },
+  "elements": [
+    {
+      "from": [
+        0.5000000000000009,
+        0.5000000000000009,
+        8.0
+      ],
+      "to": [
+        15.5,
+        15.5,
+        8.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            14.08
+          ],
+          "texture": "#wing"
+        },
+        "north": {
+          "uv": [
+            16.0,
+            0.0,
+            0.0,
+            14.08
+          ],
+          "texture": "#wing"
+        }
+      }
+    }
+  ],
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        25,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

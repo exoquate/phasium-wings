@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cc.phasium.wings.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "phasium_wings.refmap.json",
+  "client": ["client.PackRepositoryMixin", "client.HumanoidArmorLayerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

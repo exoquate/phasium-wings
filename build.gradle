@@ -1,0 +1,36 @@
+plugins {
+    id "fabric-loom" version "1.10-SNAPSHOT"
+}
+
+version = project.mod_version
+
+loom {
+    mixin { defaultRefmapName = "phasium_wings.refmap.json" }
+}
+group = "cc.phasium"
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    // permission checks; the API is on the server through LuckPerms / SkiesGUIs
+    modCompileOnly files("libs/fabric-permissions-api-0.3.1.jar")
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") { expand "version": project.version }
+}
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(26)
+}
+
+tasks.withType(JavaCompile).configureEach { it.options.release = 21 }
+
+// the Phasium button look as a built-in resource pack (registered in PhasiumWingsClient); taken from the zip at
+// build time because the unpacked paths get too long for Windows
+jar {
+    from(zipTree("libs/Phasium-Knoepfe.zip")) { into "resourcepacks/knoepfe" }
+}

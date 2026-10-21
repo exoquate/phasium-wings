@@ -1,0 +1,89 @@
+{
+  "textures": {
+    "wing": "phasium_wings:item/fluegel_drache",
+    "particle": "phasium_wings:item/fluegel_drache"
+  },
+  "elements": [
+    {
+      "from": [
+        0.4999999999999991,
+        1.7931034482758612,
+        8.0
+      ],
+      "to": [
+        15.5,
+        14.206896551724139,
+        8.0
+      ],
+      "faces": {
+        "south": {
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            14.76923076923077
+          ],
+          "texture": "#wing"
+        },
+        "north": {
+          "uv": [
+            16.0,
+            0.0,
+            0.0,
+            14.76923076923077
+          ],
+          "texture": "#wing"
+        }
+      }
+    }
+  ],
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        25,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

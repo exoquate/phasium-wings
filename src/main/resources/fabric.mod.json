@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "phasium_wings",
+  "version": "${version}",
+  "name": "Phasium Wings",
+  "description": "Cosmetic Phasium wings, chosen in the /fluegel menu.",
+  "authors": [
+    "Phasium"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cc.phasium.wings.PhasiumWings"
+    ],
+    "client": [
+      "cc.phasium.wings.client.PhasiumWingsClient"
+    ],
+    "preLaunch": [
+      "cc.phasium.wings.client.ProfileMigration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "phasium_wings.mixins.json"
+  ]
+}

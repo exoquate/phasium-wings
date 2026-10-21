@@ -1,0 +1,18 @@
+Phasium Wings – Alle Rechte vorbehalten / All Rights Reserved
+Copyright (c) 2026 Phasium (Exoquate)
+
+DEUTSCH
+Dieser Quellcode wird ausschließlich zur Einsicht veröffentlicht, damit jeder nachprüfen kann, was die Mod macht.
+Erlaubt ist: den Code lesen, prüfen und ihn selbst bauen, um ihn mit der veröffentlichten Datei zu vergleichen.
+Nicht erlaubt ist ohne schriftliche Erlaubnis: den Code oder Teile davon (auch Bilder, Modelle und andere Dateien)
+zu kopieren, zu verändern, weiterzuverbreiten, in eigenen Projekten zu verwenden oder veränderte Versionen anzubieten.
+Die Mod darf nur in der Form genutzt werden, in der sie mit dem offiziellen Phasium-Modpack verteilt wird.
+
+ENGLISH
+This source code is published for inspection only, so that anyone can check what the mod does.
+You may read and review the code and build it yourself to compare it with the published file.
+Without written permission you may not copy, modify, redistribute or reuse the code or any part of it (including
+images, models and other files) in your own projects, or offer modified versions.
+The mod may only be used as distributed with the official Phasium modpack.
+
+Ausnahme / Exception: libs/fabric-permissions-api-0.3.1.jar is a third-party library by lucko under the MIT licence.

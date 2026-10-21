@@ -1,0 +1,98 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/feather"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 7101
+      },
+      "model": "phasium_wings:item/fluegel_monarch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7102
+      },
+      "model": "phasium_wings:item/fluegel_phasiumnacht"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7103
+      },
+      "model": "phasium_wings:item/fluegel_papinella"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7104
+      },
+      "model": "phasium_wings:item/fluegel_fee2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7105
+      },
+      "model": "phasium_wings:item/fluegel_drache"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7106
+      },
+      "model": "phasium_wings:item/fluegel_feuerdrache"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7107
+      },
+      "model": "phasium_wings:item/fluegel_engel6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7108
+      },
+      "model": "phasium_wings:item/fluegel_engel6gold"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7109
+      },
+      "model": "phasium_wings:item/fluegel_engel6dunkel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7110
+      },
+      "model": "phasium_wings:item/fluegel_booster"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7111
+      },
+      "model": "phasium_wings:item/fluegel_boosterengel6"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7112
+      },
+      "model": "phasium_wings:item/fluegel_booster_galaxie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7113
+      },
+      "model": "phasium_wings:item/fluegel_joyengel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7114
+      },
+      "model": "phasium_wings:item/fluegel_eisengel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7115
+      },
+      "model": "phasium_wings:item/fluegel_smaragdfalter"
+    }
+  ]
+}
